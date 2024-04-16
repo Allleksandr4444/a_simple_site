@@ -1,0 +1,18 @@
+{%extends 'main/base.html'%}
+
+{%block title%}
+вторая страница
+{%endblock%}
+
+{%block content%}
+   <div class="addfilm">
+       <h1>Добавить фильм</h1>
+       <form method="post">
+           {% csrf_token %}
+           {{form.title}}
+           {{form.text}}
+           <button type="submit" class="but1">Добавить</button>
+           <span>{{error}}</span>
+       </form>
+   </div>
+{%endblock%}

@@ -1,0 +1,7 @@
+body{
+   background-image: url('../image/background.jpg');
+   background-size:100% 1500px;
+   background-repeat: no-repeat;
+   color: #fcfcfc;
+   font-family: Impact;
+}

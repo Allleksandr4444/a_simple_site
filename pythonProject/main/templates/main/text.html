@@ -1,0 +1,18 @@
+{%extends 'main/base.html'%}
+
+{%block title%}
+Главная страница
+{%endblock%}
+
+{%block content%}
+   <div class="film" style="--clr:black">
+       <h1>Фильмы</h1>
+   {% for el in table %}
+       <div class="film">
+           <h2>Название: {{el.title}}</h2>
+           <p>Описание: {{el.text}}</p>
+       </div>
+   </div>
+{% endfor %}
+{%endblock%}
+

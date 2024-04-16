@@ -1,0 +1,17 @@
+.films_block{
+   margin-top:250px;
+}
+.film{
+   color:white;
+   width:300px;
+   padding:10px 10px;
+   background-color:black;
+   border-radius:25px;
+   margin:10px;
+
+}
+
+.film:hover{
+background: var(--clr);
+box-shadow: 0 0 35px var(--clr);
+}
